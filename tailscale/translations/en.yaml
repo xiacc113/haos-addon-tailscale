@@ -91,6 +91,13 @@ configuration:
       This option allows you to specify a custom control server for this
       Tailscale instance, for example, a self-host Headscale instance.
       By default, it uses the control server provided by Tailscale.
+  auth_key:
+    name: Auth key
+    description: >-
+      This option allows you to specify an auth key for automated, unattended setup.
+      Useful when connecting to a self-hosted control server like Headscale.
+      When not set, this option is disabled by default, and you must authenticate
+      through the Web UI.
   share_homeassistant:
     name: Share Home Assistant with Serve or Funnel
     description: >-

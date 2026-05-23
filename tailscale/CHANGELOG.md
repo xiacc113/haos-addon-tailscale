@@ -2,6 +2,7 @@
 
 ## 0.28.1.6 (forked)
 
+- New: Add auth_key configuration option for automated/unattended setup with Headscale
 - Release unreleased changes from community app
   - Update tailscale/tailscale to v1.98.3
 

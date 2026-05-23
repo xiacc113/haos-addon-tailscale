@@ -3,7 +3,7 @@ name: Tailscale with features
 version: 0.28.1.6
 slug: tailscale
 description: Zero config VPN for building secure networks
-url: https://github.com/lmagyar/homeassistant-addon-tailscale
+url: https://github.com/xiacc113/haos-addon-tailscale
 ingress: true
 ingress_port: 0
 ingress_stream: true
@@ -53,6 +53,7 @@ options:
   log_level: info
   log_upload: false
   login_server: "https://controlplane.tailscale.com"
+  auth_key: null
   share_homeassistant: disabled
   share_on_port: 443
   snat_subnet_routes: true
@@ -88,6 +89,7 @@ schema:
   log_level: list(trace|debug|info|notice|warning|error|fatal)
   log_upload: bool
   login_server: url
+  auth_key: password?
   share_homeassistant: list(disabled|serve|funnel)
   share_on_port: match(^(?:443|8443|10000)$)
   snat_subnet_routes: bool
@@ -106,4 +108,4 @@ schema:
     packages: [str]
     init_commands: [str]
   userspace_networking: bool
-image: ghcr.io/lmagyar/{arch}-addon-tailscale
+image: ghcr.io/xiacc113/{arch}-addon-tailscale

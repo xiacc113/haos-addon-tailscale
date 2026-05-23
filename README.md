@@ -31,7 +31,7 @@ Zero config VPN for building secure networks.
 > One-click migration from the community app to this fork:
 > - Install the **Advanced SSH & Web Terminal** app and disable it's protection mode
 > - **Please create a complete system backup before executing this script!**
-> - From the cli execute: `curl -s -o /tmp/migrate_from_community_app https://raw.githubusercontent.com/lmagyar/homeassistant-addon-tailscale/refs/heads/main/scripts/migrate_from_community_app && bashio /tmp/migrate_from_community_app`
+> - From the cli execute: `curl -s -o /tmp/migrate_from_community_app https://raw.githubusercontent.com/xiacc113/haos-addon-tailscale/refs/heads/main/scripts/migrate_from_community_app && bashio /tmp/migrate_from_community_app`
 >
 > **Note:**
 > - This will install the forked version (if not already installed), backup and
@@ -46,7 +46,7 @@ Zero config VPN for building secure networks.
 >   app's container, those settings will be also migrated with the internal
 >   state.
 
-| <img width="75%" title="Migration log" src="https://github.com/lmagyar/homeassistant-addon-tailscale/raw/main/images/migration_log.png"> |
+| <img width="75%" title="Migration log" src="https://github.com/xiacc113/haos-addon-tailscale/raw/main/images/migration_log.png"> |
 | :---: |
 | _Migration log (from the community app to this fork)_ |
 
@@ -78,7 +78,7 @@ manages firewall rules for you, and works from anywhere you are.
 
 1. In Home Assistant, go to **Settings** -> **Apps** -> **Install app**.
 1. In the **...** menu at the top right corner click **Repositories**, add
-   `https://github.com/lmagyar/homeassistant-addon-tailscale` as repository.
+   `https://github.com/xiacc113/haos-addon-tailscale` as repository.
 1. Find the "Tailscale with features" app and click it. If it doesn't show
    up, wait until HA refreshes the information about the app, or click
    **Check for updates** in the **...** menu at the top right corner.
@@ -90,19 +90,19 @@ For more details, please see the app's [Documentation][Documentation] pages.
 
 [aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
 [amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
-[commits-shield]: https://img.shields.io/github/commit-activity/y/lmagyar/homeassistant-addon-tailscale.svg
-[commits]: https://github.com/lmagyar/homeassistant-addon-tailscale/commits/main
-[Documentation]: https://github.com/lmagyar/homeassistant-addon-tailscale/blob/main/tailscale/DOCS.md
-[github-actions-shield]: https://github.com/lmagyar/homeassistant-addon-tailscale/workflows/Publish/badge.svg
-[github-actions]: https://github.com/lmagyar/homeassistant-addon-tailscale/actions
+[commits-shield]: https://img.shields.io/github/commit-activity/y/xiacc113/haos-addon-tailscale.svg
+[commits]: https://github.com/xiacc113/haos-addon-tailscale/commits/main
+[Documentation]: https://github.com/xiacc113/haos-addon-tailscale/blob/main/tailscale/DOCS.md
+[github-actions-shield]: https://github.com/xiacc113/haos-addon-tailscale/workflows/Publish/badge.svg
+[github-actions]: https://github.com/xiacc113/haos-addon-tailscale/actions
 [installations-shield]: https://img.shields.io/badge/dynamic/json?label=reported%20installations&query=$[%2709716aab_tailscale%27].total&url=https%3A%2F%2Fanalytics.home-assistant.io%2Faddons.json
-[license-shield]: https://img.shields.io/github/license/lmagyar/homeassistant-addon-tailscale.svg
-[licence]: https://github.com/lmagyar/homeassistant-addon-tailscale/blob/main/LICENSE
+[license-shield]: https://img.shields.io/github/license/xiacc113/haos-addon-tailscale.svg
+[licence]: https://github.com/xiacc113/haos-addon-tailscale/blob/main/LICENSE
 [maintenance-shield]: https://img.shields.io/maintenance/yes/2026.svg
 [project-stage-shield]: https://img.shields.io/badge/project%20stage-beta-orange.svg
-[releases-shield]: https://img.shields.io/github/tag/lmagyar/homeassistant-addon-tailscale.svg?label=release
-[releases]: https://github.com/lmagyar/homeassistant-addon-tailscale/tags
-[updated-shield]: https://img.shields.io/github/last-commit/lmagyar/homeassistant-addon-tailscale/main?label=updated
-[updated]: https://github.com/lmagyar/homeassistant-addon-tailscale/commits/main
-[warning_stripe]: https://github.com/lmagyar/homeassistant-addon-tailscale/raw/main/images/warning_stripe_wide.png
+[releases-shield]: https://img.shields.io/github/tag/xiacc113/haos-addon-tailscale.svg?label=release
+[releases]: https://github.com/xiacc113/haos-addon-tailscale/tags
+[updated-shield]: https://img.shields.io/github/last-commit/xiacc113/haos-addon-tailscale/main?label=updated
+[updated]: https://github.com/xiacc113/haos-addon-tailscale/commits/main
+[warning_stripe]: https://github.com/xiacc113/haos-addon-tailscale/raw/main/images/warning_stripe_wide.png
 [community_app]: https://github.com/hassio-addons/app-tailscale

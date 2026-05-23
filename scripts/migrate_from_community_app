@@ -11,7 +11,7 @@ readonly from_min_version="0.26.0"
 readonly from_max_version="0.99.99"
 
 readonly to="09716aab_tailscale" # forked
-readonly to_repository="https://github.com/lmagyar/homeassistant-addon-tailscale"
+readonly to_repository="https://github.com/xiacc113/haos-addon-tailscale"
 
 # Default values for optional options
 # Options with default values defined in the "from" app can be missing, those defaults are automatically merged in

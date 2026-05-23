@@ -73,6 +73,12 @@ fi
 login_server=$(bashio::config "login_server")
 options+=(--login-server="${login_server}")
 
+# Use configured auth key (for automated/unattended setup)
+if bashio::config.has_value "auth_key"; then
+  auth_key=$(bashio::config "auth_key")
+  options+=(--auth-key="${auth_key}")
+fi
+
 # Enable ssh when explicitly enabled
 if bashio::config.true "tailscale_ssh.enabled"; then
   options+=(--ssh)

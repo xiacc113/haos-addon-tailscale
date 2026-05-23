@@ -51,7 +51,7 @@ however, it is nice to know where you need to go later on.
 
 1. In Home Assistant, go to **Settings** -> **Apps** -> **Install app**.
 1. In the **...** menu at the top right corner click **Repositories**, add
-   `https://github.com/lmagyar/homeassistant-addon-tailscale` as repository.
+   `https://github.com/xiacc113/haos-addon-tailscale` as repository.
 1. Find the "Tailscale with features" app and click it. If it doesn't show
    up, wait until HA refreshes the information about the app, or click
    **Check for updates** in the **...** menu at the top right corner.
@@ -755,9 +755,9 @@ You could also [open an issue here][issue] on GitHub.
 [forum]: https://community.home-assistant.io/
 [headscale]: https://github.com/juanfont/headscale
 [http_integration]: https://www.home-assistant.io/integrations/http/
-[issue]: https://github.com/lmagyar/homeassistant-addon-tailscale/issues
+[issue]: https://github.com/xiacc113/haos-addon-tailscale/issues
 [reddit]: https://reddit.com/r/homeassistant
-[warning_stripe]: https://github.com/lmagyar/homeassistant-addon-tailscale/raw/main/images/warning_stripe_wide.png
+[warning_stripe]: https://github.com/xiacc113/haos-addon-tailscale/raw/main/images/warning_stripe_wide.png
 [community_app]: https://github.com/hassio-addons/app-tailscale
 [alpine-packages]: https://pkgs.alpinelinux.org/packages
 [tailscale_acls]: https://login.tailscale.com/admin/acls
